@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="../css/bootstrap.min.css">
+	<title>Reordenando columnas</title>
+	<style>
+		.row {
+			background: #e8e8e8;
+			margin-top:40px;
+			margin-bottom: 40px;
+		}
+
+		.columna{
+			background: #f2f2f2;
+			text-align: center;
+			padding: 10px;
+			border: 1px solid #4d5061;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="row justify-content-between">
+		<div class="columna col-2 flex-last">Columna #1</div>
+		<div class="columna col-2 flex-unordered">Columna #2</div>
+		<div class="columna col-2 flex-first">Columna #3</div>
+		<div class="columna col-2 flex-first">Columna #4</div>
+		</div>
+	</div>
+	<script src="../js/jquery-3.2.1.min.js"></script>
+	<script src="../js/bootstrap.min.js"></script>
+</body>
+</html>
