@@ -1,0 +1,40 @@
+header{
+	color:#000000;
+	background: #F19CA2;
+	margin-top:10px;
+	height: 100px;
+	padding:20px;
+}
+
+.columna-main {
+	color:#000000;
+	background: #F8D7D0;
+	margin-top:10px;
+	padding:20px;
+
+}
+
+.columna-aside {
+	color:#000000;
+	background: #B7D7D9;
+	margin-top:10px;
+	padding:20px;
+	height: 150px;
+
+}
+
+.columna-section {
+	color:#000000;
+	background: #FFE9CD;
+	margin-top:10px;
+	padding:20px;
+}
+footer{
+	color:#000000;
+	background: #BFE9FF;
+	margin-top:10px;
+	padding:20px;
+}
+
+
+
